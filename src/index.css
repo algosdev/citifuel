@@ -1,13 +1,31 @@
-body {
+@import url('./HelveticaNeueCyr/stylesheet.css');
+:root {
+  --main: #3198c9;
+  --deep-gray: #363636;
+  --grey: #c4c4c4;
+  --deep-ocher: #6b989b;
+  --ocher: #72b9db;
+  --light-ocher: #c0eaef;
+}
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+body {
+  font-family: 'HelveticaNeueCyr', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.big_text {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 68px;
+  letter-spacing: 0.0005em;
+  text-transform: uppercase;
+}
+.title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 58px;
+  letter-spacing: 0.0005em;
 }
