@@ -1,4 +1,4 @@
-@import url('./HelveticaNeueCyr/stylesheet.css');
+@import url('./fonts/HelveticaNeueCyr/stylesheet.css');
 :root {
   --main: #3198c9;
   --deep-gray: #363636;
@@ -16,12 +16,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.big_text {
+.wrapper {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.big_title {
   font-weight: 900;
   font-size: 70px;
   line-height: 68px;
   letter-spacing: 0.0005em;
   text-transform: uppercase;
+  color: var(--deep-gray);
+}
+.leading {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
 }
 .title {
   font-weight: 900;

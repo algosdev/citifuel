@@ -1,3 +1,22 @@
-.txt {
-  color: red;
+.container {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  .inner {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    .nav_list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      li {
+        padding: 5px;
+        margin-left: 40px;
+        cursor: pointer;
+      }
+    }
+  }
 }
