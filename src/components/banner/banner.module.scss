@@ -31,9 +31,12 @@
       position: relative;
       padding-right: 100px;
       .navigation {
-        position: absolute;
+        position: fixed;
         right: 0;
         display: flex;
+        z-index: 5;
+        top: max(50%, 200px);
+        transform: translateY(-50%);
         .columns {
           display: flex;
           flex-direction: column;
@@ -63,7 +66,7 @@
       }
       .img_cont {
         position: relative;
-        margin-left: -30%;
+        margin-left: -5vw;
         &:before {
           content: '';
           position: absolute;

@@ -3,7 +3,7 @@
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   .inner {
     display: flex;
-    height: 80px;
+    height: 90px;
     align-items: center;
     justify-content: space-between;
     .logo {
@@ -24,6 +24,11 @@
         margin-left: 40px;
         font-size: 18px;
         cursor: pointer;
+        border-bottom: 2px solid transparent;
+        transition: 0.5s;
+        &:hover {
+          border-bottom: 2px solid var(--main);
+        }
       }
     }
   }
