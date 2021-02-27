@@ -1,4 +1,4 @@
-export const DotBackground = () => (
+export const DottedBackgroundSmall = () => (
   <svg
     width='327'
     height='327'

@@ -13,22 +13,19 @@
         left: 0;
       }
       .title {
-        -webkit-text-stroke-width: 3px;
-        -webkit-text-stroke-color: var(--deep-ocher);
-        background: transparent no-repeat;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-fill-color: transparent;
         writing-mode: vertical-rl;
         transform: rotate(180deg);
-        text-transform: uppercase;
         padding-left: 10px;
         text-align: right;
       }
     }
   }
   .right {
+    svg {
+      position: absolute;
+      bottom: -30%;
+      right: 0;
+    }
     .img_cont {
       display: flex;
       justify-content: center;

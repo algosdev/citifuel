@@ -1,15 +1,16 @@
 import React from 'react'
 import cls from './about.module.scss'
 import about_image from '../../images/about_us.png'
-import { DotBackground } from '../dotted_bg'
+import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
+import { DottedBackgroundLarge } from '../DottedBackgroundLarge'
 function About() {
   return (
     <div className={cls.container}>
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.left}>
-            <DotBackground />
-            <p className={`${cls.title} title`}>About us</p>
+            <DottedBackgroundSmall />
+            <p className={`${cls.title} title bg`}>About us</p>
             <p className='leading'>
               Citifuel LLC is a full solution services provider focused on being
               a leader in safety and technology. Our mission is to help trucking
@@ -27,8 +28,9 @@ function About() {
             </p>
           </div>
           <div className={cls.right}>
+            <DottedBackgroundLarge />
             <div className={cls.img_cont}>
-              <img src={about_image} alt='About us image' />
+              <img src={about_image} alt='About us' />
               <div className={cls.left_element}></div>
             </div>
           </div>
