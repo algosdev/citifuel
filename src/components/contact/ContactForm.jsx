@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
 import cls from './contact.module.scss'
 function ContactForm() {
   const [formValues, setFormValues] = useState({
@@ -14,6 +15,8 @@ function ContactForm() {
   }
   return (
     <div className={cls.container}>
+      <DottedBackgroundSmall />
+      <DottedBackgroundSmall />
       <div className='wrapper'>
         <div className={cls.inner}>
           <form onSubmit={handleSubmit}>

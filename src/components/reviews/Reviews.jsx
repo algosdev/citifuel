@@ -6,6 +6,7 @@ import customer2 from '../../images/customer2.jpg'
 import customer3 from '../../images/customer3.jpg'
 import customer4 from '../../images/customer4.jpg'
 import customer5 from '../../images/customer5.jpg'
+import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
 function Reviews() {
   const data = [
     {
@@ -35,6 +36,7 @@ function Reviews() {
   ]
   return (
     <div className={cls.container}>
+      <DottedBackgroundSmall />
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.header}>

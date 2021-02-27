@@ -2,9 +2,11 @@ import React from 'react'
 import { Rectangle } from '../svg'
 import cls from './whyus.module.scss'
 import whyus_image from '../../images/why_us.png'
+import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
 function WhyUs() {
   return (
     <div className={cls.container}>
+      <DottedBackgroundSmall />
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.left}>

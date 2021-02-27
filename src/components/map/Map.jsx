@@ -19,6 +19,7 @@ function Map() {
                 <Rectangle />
                 <span className='title bg'>7</span>
               </div>
+              <button className='btn'>Contact us</button>
             </div>
           </div>
           <div className={cls.right}>
