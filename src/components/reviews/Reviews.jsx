@@ -37,7 +37,7 @@ function Reviews() {
   return (
     <div className={cls.container}>
       <DottedBackgroundSmall />
-      <div className='wrapper'>
+      <div className='wrapper small'>
         <div className={cls.inner}>
           <div className={cls.header}>
             <p className='title'>Customer Reviews</p>

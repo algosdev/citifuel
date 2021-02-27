@@ -7,7 +7,7 @@ function WhyUs() {
   return (
     <div className={cls.container}>
       <DottedBackgroundSmall />
-      <div className='wrapper'>
+      <div className='wrapper small'>
         <div className={cls.inner}>
           <div className={cls.left}>
             <div className={cls.img_cont}>

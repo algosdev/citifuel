@@ -12,6 +12,7 @@
     flex-direction: column;
     .slider {
       padding: 30px 0;
+      cursor: grab;
       .item {
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1),
           -1px -1px 20px rgba(0, 0, 0, 0.1);

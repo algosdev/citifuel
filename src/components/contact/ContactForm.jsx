@@ -39,7 +39,7 @@ function ContactForm() {
                 value={formValues.email}
                 onChange={handleChange}
                 name='email'
-                placeholder='samsthith@gmail.com'
+                placeholder='samsmith@gmail.com'
                 type='email'
               />
             </div>

@@ -50,7 +50,7 @@
           height: 50px;
           outline: 0;
           border: 0;
-          padding: 8px;
+          padding: 10px;
           border-radius: 4px;
           box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.05),
             -1px -1px 20px rgba(0, 0, 0, 0.05);
@@ -60,11 +60,10 @@
           &::placeholder {
             color: #959595;
             font-size: 18px;
-            line-height: 50px;
+            line-height: 24px;
           }
         }
         textarea {
-          width: 100%;
           resize: vertical;
           height: auto;
         }
