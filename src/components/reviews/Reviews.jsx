@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import cls from './reviews.module.scss'
 import ReviewSlider from './ReviewSlider'
 import ReviewItem from './ReviewItem'
@@ -7,7 +7,8 @@ import customer3 from '../../images/customer3.jpg'
 import customer4 from '../../images/customer4.jpg'
 import customer5 from '../../images/customer5.jpg'
 import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
-function Reviews() {
+import { useInView } from 'react-intersection-observer'
+function Reviews({ setSectionValue }) {
   const data = [
     {
       img: customer2,
@@ -34,8 +35,17 @@ function Reviews() {
         'The pink-necked green pigeon (Treron vernans) is a species of bird in the dove family, Columbidae, common in Southeast Asia.',
     },
   ]
+
+  const { ref, inView } = useInView({
+    threshold: 0.8,
+  })
+  useEffect(() => {
+    if (inView) {
+      setSectionValue('04')
+    }
+  }, [inView, setSectionValue])
   return (
-    <div className={cls.container}>
+    <div ref={ref} className={cls.container} id='services'>
       <DottedBackgroundSmall />
       <div className='wrapper small'>
         <div className={cls.inner}>

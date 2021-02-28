@@ -7,76 +7,76 @@ export const DottedBackgroundSmall = () => (
     xmlns='http://www.w3.org/2000/svg'
   >
     <g opacity='0.24'>
-      <rect width='8.175' height='8.175' fill='#C4C4C4' fill-opacity='0.75' />
+      <rect width='8.175' height='8.175' fill='#C4C4C4' fillOpacity='0.75' />
       <rect
         x='35.4251'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='35.425'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -84,7 +84,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -92,7 +92,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -100,7 +100,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -108,7 +108,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -116,7 +116,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -124,7 +124,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -132,7 +132,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -140,7 +140,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -148,14 +148,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='70.8499'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -163,7 +163,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -171,7 +171,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -179,7 +179,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -187,7 +187,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -195,7 +195,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -203,7 +203,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -211,7 +211,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -219,7 +219,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -227,14 +227,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='106.275'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -242,7 +242,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -250,7 +250,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -258,7 +258,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -266,7 +266,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -274,7 +274,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -282,7 +282,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -290,7 +290,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -298,7 +298,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -306,14 +306,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='141.7'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -321,7 +321,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -329,7 +329,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -337,7 +337,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -345,7 +345,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -353,7 +353,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -361,7 +361,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -369,7 +369,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -377,7 +377,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -385,14 +385,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='177.125'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -400,7 +400,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -408,7 +408,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -416,7 +416,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -424,7 +424,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -432,7 +432,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -440,7 +440,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -448,7 +448,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -456,7 +456,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -464,14 +464,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='212.55'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -479,7 +479,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -487,7 +487,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -495,7 +495,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -503,7 +503,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -511,7 +511,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -519,7 +519,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -527,7 +527,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -535,7 +535,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -543,14 +543,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='247.975'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -558,7 +558,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -566,7 +566,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -574,7 +574,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -582,7 +582,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -590,7 +590,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -598,7 +598,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -606,7 +606,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -614,7 +614,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -622,14 +622,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='283.4'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -637,7 +637,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -645,7 +645,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -653,7 +653,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -661,7 +661,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -669,7 +669,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -677,7 +677,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -685,7 +685,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -693,7 +693,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -701,14 +701,14 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         y='318.825'
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='35.4251'
@@ -716,7 +716,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='70.85'
@@ -724,7 +724,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='106.275'
@@ -732,7 +732,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='141.7'
@@ -740,7 +740,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='177.125'
@@ -748,7 +748,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='212.55'
@@ -756,7 +756,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='247.975'
@@ -764,7 +764,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='283.4'
@@ -772,7 +772,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
       <rect
         x='318.825'
@@ -780,7 +780,7 @@ export const DottedBackgroundSmall = () => (
         width='8.175'
         height='8.175'
         fill='#C4C4C4'
-        fill-opacity='0.75'
+        fillOpacity='0.75'
       />
     </g>
   </svg>

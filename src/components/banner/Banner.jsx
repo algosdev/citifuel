@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import cls from './banner.module.scss'
 import banner1 from '../../images/banner1.png'
 import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
-function Banner() {
+import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+function Banner({ setSectionValue }) {
+  const { ref, inView } = useInView({
+    threshold: 0.8,
+  })
+  useEffect(() => {
+    if (inView) {
+      setSectionValue('01')
+    }
+  }, [inView, setSectionValue])
+
   return (
-    <div className={cls.container}>
+    <div ref={ref} className={cls.container} id='home'>
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.left}>
@@ -17,18 +28,41 @@ function Banner() {
           </div>
           <div className={cls.right}>
             <div className={cls.img_cont}>
-              <img src={banner1} alt='Banner' />
-              <div className={cls.top_element}></div>
-              <div className={cls.bottom_element}></div>
-            </div>
-            <div className={cls.navigation}>
-              <div className={cls.columns}>
-                <div className={cls.col}></div>
-                <div className={cls.col}></div>
-                <div className={cls.col}></div>
-                <div className={cls.col}></div>
-              </div>
-              <div className={cls.count}>01</div>
+              <motion.div
+                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 50 }}
+                transition={{
+                  type: 'tween',
+                  duration: 0.3,
+                  ease: 'linear',
+                  delay: 0.7,
+                }}
+                className={cls.img}
+              >
+                <img src={banner1} alt='Banner' />
+              </motion.div>
+              <motion.div
+                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 50 }}
+                transition={{
+                  type: 'tween',
+                  ease: 'linear',
+                  duration: 0.3,
+                  delay: 0.5,
+                }}
+                className={cls.top_element}
+              />
+              <motion.div
+                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 50 }}
+                transition={{
+                  type: 'tween',
+                  ease: 'linear',
+                  duration: 0.3,
+                  delay: 1.1,
+                }}
+                className={cls.bottom_element}
+              />
             </div>
           </div>
         </div>

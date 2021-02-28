@@ -14,7 +14,7 @@ function ContactForm() {
     setFormValues({ ...formValues, [e.target.name]: e.target.value })
   }
   return (
-    <div className={cls.container}>
+    <div className={cls.container} id='contacts'>
       <DottedBackgroundSmall />
       <DottedBackgroundSmall />
       <div className='wrapper'>

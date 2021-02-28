@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import cls from './about.module.scss'
 import about_image from '../../images/about_us.png'
 import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
 import { DottedBackgroundLarge } from '../DottedBackgroundLarge'
-function About() {
+import { useInView } from 'react-intersection-observer'
+function About({ setSectionValue }) {
+  const { ref, inView } = useInView({
+    threshold: 0.8,
+  })
+  useEffect(() => {
+    if (inView) {
+      setSectionValue('02')
+    }
+  }, [inView, setSectionValue])
+
   return (
-    <div className={cls.container}>
+    <div ref={ref} className={cls.container} id='about'>
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.left}>

@@ -35,7 +35,7 @@
         right: 0;
         display: flex;
         z-index: 5;
-        top: max(50%, 200px);
+        top: max(55%, 200px);
         transform: translateY(-50%);
         .columns {
           display: flex;
@@ -67,22 +67,26 @@
       .img_cont {
         position: relative;
         margin-left: -5vw;
-        &:before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(38, 159, 216, 0.21);
+        .img {
+          position: relative;
+          max-height: 500px;
+          max-width: 340px;
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: rgba(38, 159, 216, 0.21);
+          }
+          overflow: hidden;
         }
         img {
-          width: auto;
-          height: 100%;
-          max-height: 75vh;
-          //   height: 100%;
-          //   object-fit: cover;
-          //   object-position: top;
+          width: 100%;
+          height: auto;
+          transform: scale(1.02);
         }
         .top_element,
         .bottom_element {

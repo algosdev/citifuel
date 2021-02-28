@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Rectangle } from '../svg'
 import cls from './map.module.scss'
 import map_image from '../../images/map.png'
 import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
-function Map() {
+import { useInView } from 'react-intersection-observer'
+function Map({ setSectionValue }) {
+  const { ref, inView } = useInView({
+    threshold: 0.8,
+  })
+  useEffect(() => {
+    if (inView) {
+      setSectionValue('03')
+    }
+  }, [inView, setSectionValue])
   return (
-    <div className={cls.container}>
+    <div ref={ref} className={cls.container}>
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.left}>

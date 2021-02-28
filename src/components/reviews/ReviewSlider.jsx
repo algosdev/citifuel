@@ -6,7 +6,7 @@ function ReviewSlider({ children }) {
     centerMode: true,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
   }
   return <Slider {...settings}>{children}</Slider>
 }
