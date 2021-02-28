@@ -88,6 +88,19 @@ body {
   margin: 0 auto;
   cursor: pointer;
 }
+.btn.link {
+  display: flex;
+}
+.btn.link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn.mobile {
   height: 50px;
   font-size: 16px;

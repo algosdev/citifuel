@@ -41,7 +41,9 @@ function Map({ setSectionValue }) {
                 <Rectangle />
                 <span className='title bg'>7</span>
               </div>
-              <button className='btn'>Contact us</button>
+              <button className='btn link'>
+                <a href='#contacts'>Contact us</a>
+              </button>
             </div>
           </div>
           <div className={cls.right}>
@@ -55,7 +57,9 @@ function Map({ setSectionValue }) {
               />
             </div>
             <div className='title bg'>48 states</div>
-            <button className={`${cls.btn} btn`}>Contact us</button>
+            <button className={`${cls.btn} btn link`}>
+              <a href='#contacts'>Contact us</a>
+            </button>
           </div>
         </div>
       </div>
