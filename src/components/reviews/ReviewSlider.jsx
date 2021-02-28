@@ -3,10 +3,30 @@ import Slider from 'react-slick'
 function ReviewSlider({ children }) {
   const settings = {
     dots: false,
-    centerMode: true,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: false,
+          dots: false,
+        },
+      },
+    ],
   }
   return <Slider {...settings}>{children}</Slider>
 }

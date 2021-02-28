@@ -4,18 +4,32 @@ import about_image from '../../images/about_us.png'
 import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
 import { DottedBackgroundLarge } from '../DottedBackgroundLarge'
 import { useInView } from 'react-intersection-observer'
+import { motion, useAnimation } from 'framer-motion'
 function About({ setSectionValue }) {
+  const animation = useAnimation()
   const { ref, inView } = useInView({
-    threshold: 0.8,
+    threshold: 0.5,
   })
   useEffect(() => {
     if (inView) {
       setSectionValue('02')
+      animation.start('visible')
+    } else {
+      animation.start('hide')
     }
-  }, [inView, setSectionValue])
-
+  }, [animation, inView, setSectionValue])
+  const variants = {
+    visible: {
+      opacity: 1,
+      y: 0,
+    },
+    hide: {
+      opacity: 0,
+      y: 20,
+    },
+  }
   return (
-    <div ref={ref} className={cls.container} id='about'>
+    <div className={cls.container} id='about'>
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.left}>
@@ -39,10 +53,21 @@ function About({ setSectionValue }) {
           </div>
           <div className={cls.right}>
             <DottedBackgroundLarge />
-            <div className={cls.img_cont}>
-              <img src={about_image} alt='About us' />
-              <div className={cls.left_element}></div>
+            <div className={cls.img_cont} ref={ref}>
+              <motion.img
+                animate={animation}
+                variants={variants}
+                src={about_image}
+                transition={{ type: 'tween', duration: 0.3, delay: 0.3 }}
+                alt='About us'
+              />
+              <motion.div
+                animate={animation}
+                variants={variants}
+                className={cls.left_element}
+              ></motion.div>
             </div>
+            <p className={`${cls.title} title bg`}>About us</p>
           </div>
         </div>
       </div>

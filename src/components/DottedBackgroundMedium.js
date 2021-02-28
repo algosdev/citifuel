@@ -4,6 +4,7 @@ export const DottedBackgroundMiddle = () => (
     height='390'
     viewBox='0 0 390 390'
     fill='none'
+    className='dotted'
     xmlns='http://www.w3.org/2000/svg'
   >
     <g opacity='0.24'>

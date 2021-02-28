@@ -15,6 +15,37 @@ export const Phone = () => (
     />
   </svg>
 )
+export const CloseIcon = () => (
+  <svg
+    width='22'
+    height='22'
+    viewBox='0 0 22 22'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <path
+      d='M21 21L1 1M1 21L21 1L1 21Z'
+      stroke='#363636'
+      stroke-width='2'
+      stroke-linecap='round'
+      stroke-linejoin='round'
+    />
+  </svg>
+)
+export const Hamburger = () => (
+  <svg
+    width='32'
+    height='21'
+    viewBox='0 0 32 21'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <path
+      d='M32 2.93231H0V0.744812H32V2.93231ZM32 20.4323H0V18.2448H32V20.4323ZM32 11.6648H0V9.49481H32V11.6648Z'
+      fill='#363636'
+    />
+  </svg>
+)
 export const Rectangle = () => (
   <svg
     width='12'
@@ -38,7 +69,7 @@ export const PhoneNum = () => (
     <circle cx='62.5' cy='62.5' r='44' stroke='#289EAB' stroke-opacity='0.44' />
     <circle cx='62.5' cy='62.5' r='37.5' fill='#0298A9' />
     <g filter='url(#filter0_d)'>
-      <circle cx='63' cy='63' r='41' fill='white' fillOpacity='0.1' />
+      <circle cx='63' cy='63' r='41' fill='white' fill-opacity='0.1' />
     </g>
     <path
       d='M72.9642 45.359L70.9332 44.5175C69.0267 43.7294 66.8536 44.5653 65.849 46.4694L63.8546 50.2632C62.9862 51.915 63.2193 53.9635 64.4354 55.3267L67.8172 59.1204C67.4179 61.1883 66.5443 63.1834 65.2003 65.106C63.9203 66.968 62.2797 68.5541 60.3757 69.7706L56.0868 67.9282C54.4597 67.2318 52.5851 67.7216 51.4352 69.1429L48.7508 72.4533C47.4117 74.1068 47.4232 76.5411 48.7788 78.1502L50.2321 79.8749C51.6784 81.5912 53.8857 82.3556 56.0249 81.8781C61.0771 80.7535 65.9844 76.5722 70.7485 69.3346C75.5195 62.0857 77.5183 55.7614 76.7424 50.3692C76.4164 48.1001 74.9802 46.1933 72.9642 45.359Z'

@@ -6,12 +6,20 @@
     top: -10%;
     right: 0;
     z-index: -1;
+    @media (max-width: 576px) {
+      top: -50%;
+      right: auto;
+      left: -20%;
+    }
   }
   & > svg:nth-child(2) {
     position: absolute;
     bottom: -10%;
     left: 0;
     z-index: -1;
+    @media (max-width: 576px) {
+      display: none;
+    }
   }
   .inner {
     display: flex;
@@ -35,6 +43,13 @@
         margin: 10px 0 30px;
         color: var(--deep-gray);
       }
+      @media (max-width: 576px) {
+        padding: 24px;
+        .title {
+          font-size: 24px;
+          line-height: 48px;
+        }
+      }
       .input {
         display: flex;
         flex-direction: column;
@@ -44,6 +59,10 @@
           font-size: 20px;
           line-height: 20px;
           letter-spacing: 0.0005em;
+          @media (max-width: 576px) {
+            font-size: 16px;
+            line-height: 24px;
+          }
         }
         input,
         textarea {
@@ -61,6 +80,14 @@
             color: #959595;
             font-size: 18px;
             line-height: 24px;
+          }
+          @media (max-width: 576px) {
+            font-size: 16px;
+            line-height: 24px;
+            &::placeholder {
+              font-size: 16px;
+              font-weight: normal;
+            }
           }
         }
         textarea {

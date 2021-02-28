@@ -3,14 +3,24 @@
   right: 0;
   display: flex;
   z-index: 5;
-  top: max(55%, 200px);
+  top: max(60%, 200px);
   transform: translateY(-50%);
+  @media (max-width: 576px) {
+    top: auto;
+    bottom: 5vh;
+    transform: translateY(0);
+    right: 0;
+  }
   .columns {
     display: flex;
     flex-direction: column;
     .col {
       width: 20px;
       height: 100px;
+      @media (max-width: 1000px) {
+        width: 16px;
+        height: 60px;
+      }
       &:nth-child(1) {
         background: #3198c9;
       }
@@ -31,6 +41,10 @@
     color: #3198c9;
     padding: 5px;
     height: 100px;
+    @media (max-width: 1000px) {
+      font-size: 48px;
+      line-height: 64px;
+    }
     span {
       animation: fadeIn 1s ease-out forwards;
     }

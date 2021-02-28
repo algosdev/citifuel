@@ -4,6 +4,7 @@ export const DottedBackgroundSmall = () => (
     height='327'
     viewBox='0 0 327 327'
     fill='none'
+    className='dotted'
     xmlns='http://www.w3.org/2000/svg'
   >
     <g opacity='0.24'>

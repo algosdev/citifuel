@@ -3,18 +3,31 @@ import { Rectangle } from '../svg'
 import cls from './map.module.scss'
 import map_image from '../../images/map.png'
 import { DottedBackgroundSmall } from '../DottedBackgroundSmall'
+import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 function Map({ setSectionValue }) {
+  const animation = useAnimation()
   const { ref, inView } = useInView({
-    threshold: 0.8,
+    threshold: 0.5,
   })
   useEffect(() => {
     if (inView) {
       setSectionValue('03')
+      animation.start('visible')
+    } else {
+      animation.start('hide')
     }
-  }, [inView, setSectionValue])
+  }, [animation, inView, setSectionValue])
+  const variants = {
+    visible: {
+      opacity: 1,
+    },
+    hide: {
+      opacity: 0,
+    },
+  }
   return (
-    <div ref={ref} className={cls.container}>
+    <div className={cls.container} ref={ref}>
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.left}>
@@ -33,8 +46,16 @@ function Map({ setSectionValue }) {
           </div>
           <div className={cls.right}>
             <div className={cls.img_cont}>
-              <img src={map_image} alt='Map' />
+              <motion.img
+                animate={animation}
+                variants={variants}
+                initial='hide'
+                src={map_image}
+                alt='Map'
+              />
             </div>
+            <div className='title bg'>48 states</div>
+            <button className={`${cls.btn} btn`}>Contact us</button>
           </div>
         </div>
       </div>

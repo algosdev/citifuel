@@ -37,7 +37,7 @@ function Reviews({ setSectionValue }) {
   ]
 
   const { ref, inView } = useInView({
-    threshold: 0.8,
+    threshold: 0.4,
   })
   useEffect(() => {
     if (inView) {
@@ -45,14 +45,14 @@ function Reviews({ setSectionValue }) {
     }
   }, [inView, setSectionValue])
   return (
-    <div ref={ref} className={cls.container} id='services'>
+    <div className={cls.container} id='services'>
       <DottedBackgroundSmall />
       <div className='wrapper small'>
         <div className={cls.inner}>
           <div className={cls.header}>
             <p className='title'>Customer Reviews</p>
           </div>
-          <div className={cls.slider}>
+          <div className={cls.slider} ref={ref}>
             <ReviewSlider>
               {data.map((item, index) => (
                 <ReviewItem key={index} data={item} />

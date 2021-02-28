@@ -1,15 +1,24 @@
 .container {
   padding: 100px 0 50px;
   position: relative;
-  & > svg:nth-child(1) {
+  & > svg {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
+    @media (max-width: 576px) {
+      right: auto;
+      left: -30%;
+    }
   }
   .inner {
     display: flex;
     flex-direction: column;
+    @media (max-width: 576px) {
+      .header {
+        max-width: 220px;
+      }
+    }
     .slider {
       padding: 30px 0;
       cursor: grab;
@@ -17,9 +26,16 @@
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1),
           -1px -1px 20px rgba(0, 0, 0, 0.1);
         width: 264px;
+
         .img_cont {
           width: 264px;
           overflow: hidden;
+        }
+        @media (max-width: 576px) {
+          width: 250px;
+          .img_cont {
+            width: 250px;
+          }
         }
         .content {
           padding: 16px;
