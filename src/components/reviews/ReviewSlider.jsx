@@ -53,7 +53,7 @@ function ReviewSlider({ children }) {
         },
       },
       {
-        breakpoint: 412,
+        breakpoint: 415,
         settings: {
           slidesToShow: 1.3,
           slidesToScroll: 1,
