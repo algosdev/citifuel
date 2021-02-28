@@ -9,7 +9,22 @@ function ReviewSlider({ children }) {
     initialSlide: 1,
     responsive: [
       {
-        breakpoint: 900,
+        breakpoint: 920,
+        settings: {
+          slidesToShow: 2.8,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 790,
+        settings: {
+          slidesToShow: 2.3,
+        },
+      },
+      {
+        breakpoint: 700,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -19,6 +34,26 @@ function ReviewSlider({ children }) {
       },
       {
         breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: false,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 512,
+        settings: {
+          slidesToShow: 1.6,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: false,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 412,
         settings: {
           slidesToShow: 1.4,
           slidesToScroll: 1,
