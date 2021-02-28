@@ -73,7 +73,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .slick-slide {
-  transform: translateX(-30%) !important;
+  transform: translateX(-35%) !important;
 }
 .btn {
   background-color: var(--main);
