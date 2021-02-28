@@ -8,7 +8,7 @@ import { motion, useAnimation } from 'framer-motion'
 function About({ setSectionValue }) {
   const animation = useAnimation()
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.8,
   })
   useEffect(() => {
     if (inView) {
@@ -31,7 +31,7 @@ function About({ setSectionValue }) {
   return (
     <div className={cls.container} id='about'>
       <div className='wrapper'>
-        <div className={cls.inner}>
+        <div className={cls.inner} ref={ref}>
           <div className={cls.left}>
             <DottedBackgroundSmall />
             <p className={`${cls.title} title bg`}>About us</p>
@@ -53,7 +53,7 @@ function About({ setSectionValue }) {
           </div>
           <div className={cls.right}>
             <DottedBackgroundLarge />
-            <div className={cls.img_cont} ref={ref}>
+            <div className={cls.img_cont}>
               <motion.img
                 animate={animation}
                 variants={variants}

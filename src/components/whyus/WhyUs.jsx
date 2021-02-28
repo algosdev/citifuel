@@ -28,7 +28,7 @@ function WhyUs() {
   return (
     <div className={cls.container} ref={ref}>
       <DottedBackgroundSmall />
-      <div className='wrapper'>
+      <div className='wrapper small'>
         <div className={cls.inner}>
           <div className={cls.left}>
             <div className={cls.img_cont}>

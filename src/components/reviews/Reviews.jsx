@@ -37,7 +37,7 @@ function Reviews({ setSectionValue }) {
   ]
 
   const { ref, inView } = useInView({
-    threshold: 0.4,
+    threshold: 0.8,
   })
   useEffect(() => {
     if (inView) {

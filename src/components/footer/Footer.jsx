@@ -5,8 +5,8 @@ import bg from '../../images/footer_bg.png'
 import { Phone } from '../svg'
 function Footer() {
   return (
-    <div className={cls.container}>
-      <img src={bg} alt='Background' />
+    <div className={cls.container} style={{ backgroundImage: `url(${bg})` }}>
+      {/* <img src={bg} alt='Background' /> */}
       <div className='wrapper'>
         <div className={cls.inner}>
           <div className={cls.logo}>

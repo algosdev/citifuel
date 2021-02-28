@@ -8,7 +8,7 @@ import { useInView } from 'react-intersection-observer'
 function Map({ setSectionValue }) {
   const animation = useAnimation()
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.8,
   })
   useEffect(() => {
     if (inView) {
@@ -28,7 +28,7 @@ function Map({ setSectionValue }) {
   }
   return (
     <div className={cls.container} ref={ref}>
-      <div className='wrapper'>
+      <div className='wrapper small'>
         <div className={cls.inner}>
           <div className={cls.left}>
             <DottedBackgroundSmall />
