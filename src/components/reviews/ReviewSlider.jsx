@@ -45,7 +45,7 @@ function ReviewSlider({ children }) {
       {
         breakpoint: 512,
         settings: {
-          slidesToShow: 1.6,
+          slidesToShow: 1.4,
           slidesToScroll: 1,
           infinite: true,
           centerMode: false,
@@ -55,7 +55,7 @@ function ReviewSlider({ children }) {
       {
         breakpoint: 412,
         settings: {
-          slidesToShow: 1.4,
+          slidesToShow: 1.3,
           slidesToScroll: 1,
           infinite: true,
           centerMode: false,
