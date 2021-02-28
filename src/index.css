@@ -150,6 +150,6 @@ body {
     transform: scale(0.7);
   }
   .slick-slide {
-    transform: translateX(5%) !important;
+    transform: translateX(64%) !important;
   }
 }
