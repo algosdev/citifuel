@@ -61,6 +61,9 @@
           margin-left: 0;
         }
         @media (max-width: 576px) {
+          margin-left: -30px;
+        }
+        @media (max-width: 360px) {
           margin-left: -16px;
         }
         .img {
