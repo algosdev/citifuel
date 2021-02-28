@@ -31,7 +31,7 @@ function About({ setSectionValue }) {
   return (
     <div className={cls.container} id='about'>
       <div className='wrapper'>
-        <div className={cls.inner} ref={ref}>
+        <div className={cls.inner}>
           <div className={cls.left}>
             <DottedBackgroundSmall />
             <p className={`${cls.title} title bg`}>About us</p>
@@ -51,7 +51,7 @@ function About({ setSectionValue }) {
               personal passion and example of our executive team.
             </p>
           </div>
-          <div className={cls.right}>
+          <div className={cls.right} ref={ref}>
             <DottedBackgroundLarge />
             <div className={cls.img_cont}>
               <motion.img

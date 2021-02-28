@@ -27,7 +27,7 @@ function Map({ setSectionValue }) {
     },
   }
   return (
-    <div className={cls.container} ref={ref}>
+    <div className={cls.container}>
       <div className='wrapper small'>
         <div className={cls.inner}>
           <div className={cls.left}>
@@ -46,7 +46,7 @@ function Map({ setSectionValue }) {
               </button>
             </div>
           </div>
-          <div className={cls.right}>
+          <div className={cls.right} ref={ref}>
             <div className={cls.img_cont}>
               <motion.img
                 animate={animation}

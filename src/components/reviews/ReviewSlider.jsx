@@ -4,8 +4,9 @@ function ReviewSlider({ children }) {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 3.4,
     slidesToScroll: 1,
+    initialSlide: 1,
     responsive: [
       {
         breakpoint: 900,

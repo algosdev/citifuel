@@ -72,6 +72,9 @@ body {
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
 }
+.slick-slide {
+  transform: translateX(-30%) !important;
+}
 .btn {
   background-color: var(--main);
   border-radius: 4px;
@@ -145,5 +148,8 @@ body {
   }
   .dotted {
     transform: scale(0.7);
+  }
+  .slick-slide {
+    transform: translateX(5%) !important;
   }
 }
